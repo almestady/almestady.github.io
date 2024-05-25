@@ -8,9 +8,7 @@ h1 {
 }
 
 @media only screen and (max-width: 400px) {
-     h2 {
-    color: yellow;
-  }
+  background-color: aliceblue;
 }
 
 .container{
@@ -34,8 +32,4 @@ html{
          background-color: rgb(223, 241, 223);
          font-size: 20px;
       }
-      @media only screen and (max-width: 750px) {
-         body {
-            background-color: aliceblue;
-         }
-      }
+      
