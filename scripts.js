@@ -21,9 +21,11 @@ show.textContent = greet;
 
 const button = document.getElementById('myButton');
   button.addEventListener('click', function() {
-    alert('نوران بنت وائل المستادي');
+document.getElementById('MyHeading').innerText = "نوران بنت وائل المستادي"
+    alert();
   });
 }
+
 
 
   
