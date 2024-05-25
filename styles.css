@@ -3,6 +3,11 @@
          background-color: rgb(223, 241, 223);
          font-size: 20px;
       }
+@media screen and (max-width: 768px)
+    {
+       background-color: green;
+       color:white;
+     }
 
 h1 {
     text-align: center;
