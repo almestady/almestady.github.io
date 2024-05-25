@@ -22,7 +22,7 @@ show.textContent = greet;
 const button = document.getElementById('myButton');
   button.addEventListener('click', function() {
 document.getElementById('MyHeading').innerText = "نوران بنت وائل المستادي"
-    alert();
+   
   });
 }
 
