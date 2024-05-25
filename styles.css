@@ -8,7 +8,7 @@ h1 {
 }
 
 @media only screen and (max-width: 400px) {
-  background-color: aliceblue;
+  background-color: yellow;
 }
 
 .container{
