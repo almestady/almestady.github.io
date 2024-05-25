@@ -1,4 +1,8 @@
 /* Place your CSS styles in this file */
+ body {
+         background-color: rgb(223, 241, 223);
+         font-size: 20px;
+      }
 
 h1 {
     text-align: center;
@@ -8,7 +12,7 @@ h1 {
 }
 
 @media only screen and (max-width: 400px) {
-  background-color: yellow;
+  background-color: #FCFF33;
 }
 
 .container{
@@ -28,8 +32,5 @@ html{
   color: #b3b300;
 }
 
- body {
-         background-color: rgb(223, 241, 223);
-         font-size: 20px;
-      }
+
       
