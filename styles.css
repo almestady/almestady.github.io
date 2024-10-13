@@ -1,0 +1,422 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.inner_header{
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  /* background-color: gray; */
+}
+
+.logo_container{
+  heigh: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container img{
+  width: 65px;
+  margin: 5px;
+  margin-right: -40px;
+  filter: drop-shadow(0 0 12px white);
+}
+
+.logo_container h1{
+  color: white;
+  justify-content: center;
+  height: 100%;
+  display:table-cell;
+  vertical-align: middle;
+  font-family: "Playpen Sans", cursive;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation a{
+  /height:100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  color: white;
+  font-family: "Playpen Sans", cursive;
+  font-weight: 200;
+}
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.navigation a li{
+  display:table-cell;
+  vertical-align: middle;
+  height:100;
+  color:white;
+  font-family: "Playpen Sans", cursive;
+  font-size: 16px;
+}
+
+.main_content{
+  /* background-image: url("interlaken.jpg"); */
+  justify-content: center;
+  vertical-align: middle;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.footer{
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #CE6650;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.inner_footer{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner_footer .logo_container{
+  width: 35%;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+.inner_footer .logo_container img{
+  width: 139px;
+  height: auto;
+  margin-right: 88px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 7px 7px white;
+}
+
+.inner_footer .footer_third{
+  width: calc(21.6666666667 - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}   
+
+.inner_footer .footer_third :last-child{
+  margin: 0;
+}
+
+.inner_footer .footer_third h1{
+  font-family: "Playpen Sans", cursive;
+  font-size: 12px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+  font-family: "Playpen Sans", cursive;
+  font-size: 8px;
+  color: white;
+  display: block;
+  font-weight:200;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.inner_footer .footer_third li{
+  display: iniline-block;
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.inner_footer .footer_third span{
+  color: white;
+  font-family: "Playpen Sans", cursive;
+}
+
+
+/* .search { */
+/*   display: inline-flex; */
+/*   margin-top: 17px; */
+/*   margin-right: 20px; */
+/*   background-color: cyan; */
+/*   color: #fff; */
+/*   padding: 10px; */
+/*   border-radius: 4px; */
+/*   border: 1px solid #fff; */
+/* } */
+/**/
+/*  .search :is(input, button) { */
+/*     background: transparent; */
+/*     color: inherit; */
+/*     border: none; */
+/*     outline: none; */
+/* } */
+/**/
+/* .searchinput{ */
+/*   width:  0px; */
+/*   transition: width 0.5s; */
+/* } */
+/**/
+/* .searchbutton { */
+/*   display: grid; */
+/*   place-items: center; */
+/*   width: 25px; */
+/*   height: 25px; */
+/*   cursor: pointer; */
+/*   transition: color 0.25s; */
+/* } */
+/**/
+/* .searchbutton :hover { */
+/*   color: #e3e3e3; */
+/* } */
+/**/
+/* .search :focus-within input { */
+/*   width: 200px; */
+/* } */
+/**/
+/* ::placeholder { */
+/*   font: inherit; */
+/*   color: #e3e3e3; */
+/* } */
+/**/
+input[type="text"] {
+    background: #444;
+    border: 0 none;
+    color: #d7d7d7;
+    width:50px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+     margin:29px 80px;
+}
+
+input[type="text"]:focus {
+    background:#ccc;
+    color: #6a6f75;
+    padding-left:80px;  
+    margin-left:35px;
+    outline: none;
+}
+
+.dropdown{
+  position:relative;
+  display: inline-block;
+}
+
+  .dropdown. button{
+  background-color: cyan;
+  color: brown; 
+  padding: 16px 24px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+.dropdown .content{
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 80px 16px 0px rgba(0,0,0,0.2);
+  z-index: -1;
+  opacity: 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.dropdown .content a{
+display: block;
+color: #212121;
+padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.dropdown .content a:hover{
+  background: gray;
+}
+
+.dropdown:hover .button{
+  background: cyan;
+}
+
+.dropdown:hover .content{
+  opacity: 1;
+  z-index: 1;
+}
+
+
+/* *{ */
+/*   margin: 6; */
+/*   padding: 0; */
+/*   box-sizing: border-box; */
+/*   font-family: 'poppin', sans-serif; */
+/* } */
+/**/
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100h;
+  background-image: ur1(*);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section_div{
+  background-image:url("interlaken.jpg"); 
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  /* opacity: 90%; */
+  height: 600px;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+section{
+  position: relative;
+  max-width: 400px;
+  background-color: black;
+  border: 2px solid rgba (255, 255, 255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur (55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+    height: 300px;
+    opacity: 49%;
+}
+
+.section_div h1{
+font-size:9rem;
+color:#fff;
+text-align:center;
+}
+
+.inputbox{
+position: relative;
+max-width: 310px;
+border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%); 
+color: #fff;
+font-size: 1rem;
+pointer-events: none;
+transition: all 0.5s ease-in-out;
+}
+
+
+input:focus ~ label,
+input:valid ~ label {
+top: -5px;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none; font-size: 1rem;
+  padding: 0px 35px 0px 5px;
+  color: #fff;
+  }
+
+
+.forget {
+  margin: 35px 0;
+  font-size:0.85rem;
+  color:#fff;
+  display: flex;
+  justify-content:space-between;
+  }
+
+  .forget label{
+   display: flex;
+   align-items: center;
+  }
+
+  .forget label input{
+    margin-right: 3px;
+  }
+
+  .forget a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .forget a:hover{
+    text-decoration:underline;
+  }
+
+  button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+  }
+
+  button:hover{
+    background-color: rgb(255,255,255,0.5);
+  }
+
+  .register{
+    font-size: 0.9rem;
+    color: #fff;
+    text-aligh: center;
+    margin: 25px 0 10px;
+  }
+
+  .register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .reister p a:honver{
+    text-decoration: underline;
+  }
